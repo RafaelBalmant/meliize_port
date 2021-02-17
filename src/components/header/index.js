@@ -16,13 +16,14 @@ const Header = () => {
   return (
     <Body>
       <img
+        style={{ marginLeft: "10px" }}
         src={process.env.PUBLIC_URL + "logo.png"}
         width="140px"
         height="50px"
       />
       {window.innerWidth < 590 && (
         <div style={{ marginRight: "15px" }}>
-          <HamburgeMenu onClick={handleClick} />
+          <HamburgeMenu onClick={handleClick} fontSize="large" />
           <Menu
             id="simple-menu"
             anchorEl={anchorEl}

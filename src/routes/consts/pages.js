@@ -3,7 +3,7 @@ import About from "../../pages/about";
 
 const pages = [
   {
-    path: "/home",
+    path: "/",
     component: Home,
     protected: false,
   },
